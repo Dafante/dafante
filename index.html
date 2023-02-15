@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" color="black">
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 
@@ -13,9 +13,9 @@
 
       This should be the same across all pages.
      -->
-    <link rel="icon" href="./assets/images/1311.png" />
+    <link rel="icon" href="./assets/images/Dlogo.png" />
 		<title>Unemployables Portfolio</title>
-    <meta name="description" content="A portfolio template for the Unemployables community.">
+    <meta name="description" content="A portfolio of all my work.">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<link rel="stylesheet" href="./css/layout.css">
@@ -27,8 +27,27 @@
 	<body>
     <!-- NAVBAR -->
     <div class="navbar">
+       <div class="dropdown">
+          <button class="dropbtn">Dropdown 
+              <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+        </div>
+      </div>
       <a class="nav-title-link" href="./index.html">
         <!-- TODO - Change the "Portfolio Title" to whatever you want displayed in the top left -->
+        <span class="nav-title"<Home</span>
+     
+         <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
+        <a class="button" href="mailto:whitevans.eth@gmail.com">
+          <span class="button-text">Contact Me</span>
+          
+        </a>
+      </a>
+     
         <span class="nav-title">Portfolio Title</span>
         
 	<!-- TODO - Change the email after 'mailto:' to your email address for contact -->
@@ -54,7 +73,7 @@
             - Change the number to point to your Unemployable & replace the OpenSea link with your own
             - If you aren't using an Unemployable as your image, remove the entire "a" element
           -->
-          <img src="./assets/images/headshot.png" class="portfolio-header-image">
+          <img src="./assets/images/1311.png" class="portfolio-header-image">
           <a class="no-underline" target="_blank" href="https://opensea.io/assets/0xe0be388ab81c47b0f098d2030a1c9ef190691a8a/1311">
             <span class="image-caption">Unemployables #1311</span>
           </a>
@@ -122,17 +141,6 @@
                 - SMALL_PROJECT_DESCRIPTION: a quick project description (max 4 lines)
                 - PROJECT_PAGE_NAME.html: the html filename for the project (must be in project-pages folder)
           -->
-		<div class="project-card">
-              <img src="./assets/images/th-3688938031" class="project-image">
-              <div class="project-card-text-container">
-                <div class="subheader-text project-title">Blue</div>
-                <div class="body-text project-card-text">Tryhackme Blue, 1st writeup.</div>
-              </div>
-              <a class="button" href="./project-pages/Blue.html">
-                <span class="button-text">Read More</span>
-                <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-              </a>
-            </div>
           <div class="project-card">
             <img src="./assets/images/desktop.jpeg" class="project-image">
             <div class="project-card-text-container">
